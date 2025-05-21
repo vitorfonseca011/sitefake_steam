@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://th.bing.com/th/id/R.bd68e6a3268a5c9c321106ff3ce0eb0a?rik=4%2f%2bpjdd0Cnsgdw&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+
+}
+.container {
+  background-color: #0c4786;
+  opacity: 0.9;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #202da1;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mensagem {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.mensagem.erro {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+img {
+  margin: 130px;
+  width: 15rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
+p {
+  color: #721c24;
+}
+
+
